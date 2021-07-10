@@ -21,7 +21,7 @@ body{
     padding: 100px 0 80px;
 }
 
-p {
+main {
     max-width: 400px;
     margin: 0 auto;
     text-align: center;
@@ -29,9 +29,27 @@ p {
     color: #1e1e1e;
 }
 
+.btn {
+    text-decoration: none;
+    color: #f1f1f1;
+    background: #934c39;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.btn:hover{
+  background:#1e1e1e;
+  color: #d8cbc3;
+  border-radius: 3px;
+}
+
+p {
+    padding: 0 0 80px;
+}
+
 .inbody {
     color: #8f2a2a;
     font: 20px 'Play', sans-serif;
     font-weight: bold;
 }
-​
