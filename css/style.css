@@ -21,7 +21,7 @@ body{
     padding: 100px 0 80px;
 }
 
-main {
+.cta {
     max-width: 400px;
     margin: 0 auto;
     text-align: center;
@@ -36,6 +36,8 @@ main {
     padding: 20px;
     text-transform: uppercase;
     border-radius: 3px;
+    display: block;
+    margin: 40px 40px 90px;
 }
 
 .btn:hover{
@@ -45,11 +47,41 @@ main {
 }
 
 p {
-    padding: 0 0 80px;
+    padding: 20px 0;
 }
 
 .inbody {
     color: #8f2a2a;
     font: 20px 'Play', sans-serif;
     font-weight: bold;
+}
+
+.berries {
+    width: 400px;
+    margin: 0 30px 100px 150px;
+    border: #f84545 3px solid;
+    float:left;
+}
+
+.appt-type{
+  display:inline;
+}
+
+.types-list{
+  padding: 0 150px 0 0;
+  font-family: "Helvetica", sans-serif;
+}
+
+summary{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p .appt-type {
+  font-size: 16px;
+}
+
+h1{
+  padding: 0 0 20px 0;
+  font: 18px "Helvetica", sans-serif;
 }
