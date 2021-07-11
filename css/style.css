@@ -85,3 +85,35 @@ h1{
   padding: 0 0 20px 0;
   font: 18px "Helvetica", sans-serif;
 }
+
+.smile-img{
+  width: 150px;
+  padding: 100px 0px;
+  position: absolute;
+  animation: move 20s forwards linear infinite,
+            jump 0.8s 7s ease;
+  left: 0px;
+  bottom: -800px;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(-100px)
+  }
+
+  to{
+    transform: translateX(2000px)
+  }
+}
+
+@keyframes jump {
+  0% {
+    bottom: -800px;
+  }
+  50% {
+    bottom: -700px;
+  }
+  100% {
+    bottom: -800px;
+  }
+}
