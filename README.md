@@ -1,6 +1,6 @@
-#Appointment Landing Page
+# Appointment Landing Page
 
-##Course information
+## Course information
 
 Stephanie Marzan
 Summer C 2021
@@ -9,13 +9,13 @@ MMC5277: Web Design Principles
 
 I,Stephanie Marzan, have read the point deduction list and understand that I will lose points for missing items.
 
-###InBody Color Reference
+### InBody Color Reference
 
 Use the color picker to get the exact color that needs to be use in the text "InBody".
 
 ![InBody Logo](images/inbody.png)
 
-####Animation
+#### Animation
 
 The animation needs to be added to the image with an animation duration in order to work. Use position absolute to position the element where you want it to go.
 
@@ -45,6 +45,6 @@ Create a keyframe with the animation where you specify how the image coded above
 }
 ```
 
-#####Resources
+##### Resources
 
 [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers)
